@@ -1,0 +1,14 @@
+<div class='jumbotron'>
+  <h1>{{header}}</h1>
+  <!-- <div class='btn'> Time remaining: </div> -->
+<div class='btn' ng-controller="TimeCtrl">
+    Time remaining: {{counter}}
+</div>
+  <div class='btn'> Score: {{lvl + 1}}</div>
+</div>
+<div id='grid' ng-class='getClass()'>
+  <span ng-repeat="block in blocks track by $index"
+    ng-style="colors[$index]"
+    ng-click="nextLevel($index)">
+  </span>
+</div>

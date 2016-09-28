@@ -1,0 +1,142 @@
+body{
+  background-color: #BF5700;
+}
+
+h1{
+	color: #D6D2C4;
+	font-family: sans-serif;
+}
+
+.btn {
+  background: #005F86;
+  border-radius: 28px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 15%;
+  margin: auto;
+}
+
+.btn:hover{
+  background-color: #2380E2;
+}
+
+.jumbotron{
+	background-color: #333F48;
+	text-align: center;
+	border-radius: 2px;
+  /*width: 200px;*/
+  /*height: 200px;*/
+}
+
+
+.letter-box{
+  margin-bottom: 5px;
+  box-shadow: 3px 3px 2px #ddd;
+}
+
+#grid
+{
+  width:500px;
+  height:496px;
+  background-color: white;
+  position:absolute;
+  top:0px;
+  right:0;
+  bottom:0;
+  left:0;
+  border-radius:10px;
+  margin:auto;
+  margin-top: 200px;
+  padding:2px;
+}
+
+#grid span
+{
+  float:left;
+  display:block;
+  border-radius:5px;
+  cursor:pointer;
+  border:2px solid #ddd;
+  box-sizing:border-box;
+  /*-moz-box-sizing:border-box;*/
+  /*box-sizing:border-box;*/
+}
+
+/*#grid span img
+{
+  width:100%;
+}*/
+
+#grid.lv2 span
+{
+  width:50%;
+  height:50%;
+}
+
+#grid.lv3 span
+{
+  width:33.33%;
+  height:33.33%;
+}
+
+#grid.lv4 span
+{
+  width:25%;
+  height:25%;
+}
+
+#grid.lv5 span
+{
+  width:20%;
+  height:20%;
+  border-width:2px;
+}
+
+#grid.lv6 span
+{
+  width:16.666%;
+  height:16.666%;
+  border-width:2px;
+}
+
+#grid.lv7 span
+{
+  width:14.28%;
+  height:14.28%;
+  border-width:2px;
+}
+
+#grid.lv8 span
+{
+  width:12.5%;
+  height:12.5%;
+  border-width:2px;
+}
+
+#grid.lv9 span
+{
+  width:11.111%;
+  height:11.111%;
+  border-width:2px;
+}
+
+/*#grid span img
+{
+  width:100%;
+}*/
+
+/*  #grid.lv1 span,#grid.lv2 span,#grid.lv3 span,#grid.lv4 span
+  {
+    border-radius:5px;
+    border-width:2px;
+  }
+
+  #grid.lv5 span,#grid.lv6 span,#grid.lv7 span,#grid.lv8 span,#grid.lv9 span
+  {
+    border-radius:3px;
+    border-width:1px;
+  }*/
